@@ -104,5 +104,3 @@ src/
 craco.config.js
 package.json
 ```
-
-N'hésitez pas à personnaliser cette arborescence en fonction des besoins spécifiques de votre projet.
