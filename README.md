@@ -1,78 +1,67 @@
-# AMBY - Application Android pour Jeunes Entrepreneurs
-
-## Description
+# AMBY - Application pour Jeunes Entrepreneurs
 
 AMBY est une application Android dédiée aux jeunes entrepreneurs et étudiants, fournissant une plateforme sociale innovante pour faciliter le réseautage, le partage de connaissances et la croissance professionnelle. Cette application met l'accent sur une expérience utilisateur moderne et attrayante tout en intégrant des fonctionnalités spécifiques aux besoins des utilisateurs cibles (âgés de 18 à 27 ans).
 
 ## Fonctionnalités Principales
 
-1. **Réseautage et Profil Utilisateur :** Créez et gérez votre profil utilisateur, explorez des profils d'autres jeunes entrepreneurs, et établissez des connexions professionnelles.
-
-2. **Partage Multimédia :** Partagez des photos, vidéos et autres contenus multimédias pour mettre en valeur vos projets et expériences.
-
-3. **Actualités Business Mondiale :** Restez informé(e) des dernières actualités mondiales liées aux affaires et entrepreneuriat.
-
-4. **Éducation Financière :** Accédez à des ressources éducatives pour améliorer vos compétences financières et votre compréhension du monde des affaires.
-
-5. **Accompagnement Administratif :** Recevez des conseils et informations sur les procédures administratives liées à l'entrepreneuriat.
+- **Réseautage et Profil Utilisateur :** Créez et gérez votre profil utilisateur, explorez des profils d'autres jeunes entrepreneurs, et établissez des connexions professionnelles.
+  
+- **Partage Multimédia :** Partagez des photos, vidéos et autres contenus multimédias pour mettre en valeur vos projets et expériences.
+  
+- **Actualités Business Mondiale :** Restez informé(e) des dernières actualités mondiales liées aux affaires et entrepreneuriat.
+  
+- **Éducation Financière :** Accédez à des ressources éducatives pour améliorer vos compétences financières et votre compréhension du monde des affaires.
+  
+- **Accompagnement Administratif :** Recevez des conseils et informations sur les procédures administratives liées à l'entrepreneuriat.
 
 ## Guide de Développement
 
 ### Organisation du Projet
 
-L'organisation du projet suit une structure classique pour une application Android Studio. Voici les principaux répertoires et fichiers :
+L'organisation du projet suit une structure classique pour une application React Native. Voici les principaux répertoires et fichiers :
 
-```plaintext
-app/
-|-- src/
-|   |-- main/
-|       |-- java/
-|       |   |-- com/example/amby/
-|       |       |-- activities/
-|       |           |-- MainActivity.java
-|       |-- res/
-|       |   |-- drawable/
-|       |   |-- layout/
-|       |       |-- activity_main.xml
-|       |   |-- mipmap/
-|       |   |-- values/
-|       |       |-- strings.xml
-|       |       |-- styles.xml
-|       |-- assets/
-|       |   |-- external/
-|       |       |-- pprslogo1923-v3ot-200w.png
-|       |-- web/
-|           |-- index.html
-|           |-- css/
-|               |-- style.css
-|           |-- js/
-|               |-- script.js
-|-- build.gradle
-|-- craco.config.js
-|-- package.json
-|-- settings.gradle
-```
+- **/android** : Contient les fichiers spécifiques à la plateforme Android.
+  
+- **/ios** : Contient les fichiers spécifiques à la plateforme iOS.
+  
+- **/src** : Contient le code source de l'application React Native, y compris les composants, les écrans et les fonctionnalités.
+  
+- **App.js** : Le point d'entrée de l'application.
 
-### Développement et Intégration Web
+## Installation
 
-- L'activité principale (`MainActivity.java`) utilise une WebView pour afficher la page web principale (`index.html`) qui comprend du CSS (`style.css`) et du JavaScript (`script.js`).
-- Les ressources (images, icônes) sont stockées dans les répertoires appropriés (`drawable`, `mipmap`, `assets`).
+1. Assurez-vous d'avoir Node.js et npm installés sur votre machine.
+  
+2. Installez React Native CLI en utilisant la commande `npm install -g react-native-cli`.
+  
+3. Clonez ce dépôt sur votre machine.
+  
+4. Naviguez vers le répertoire du projet et exécutez `npm install` pour installer les dépendances.
 
-### Configuration du Projet
+## Utilisation
 
-- Le fichier `build.gradle` contient les configurations du projet Android.
-- Les dépendances nécessaires sont spécifiées dans `dependencies`.
+1. Pour lancer l'application sur un émulateur Android, exécutez `react-native run-android`.
+  
+2. Pour lancer l'application sur un émulateur iOS, exécutez `react-native run-ios`.
 
-### Scripts et Configurations Additionnels
+## Contribuer
 
-- Le fichier `craco.config.js` est utilisé pour les configurations spécifiques à CRACO (Create React App Configuration Override), si nécessaire.
-- Le fichier `package.json` contient les dépendances et scripts pour le développement.
+Les contributions sont les bienvenues ! Pour des suggestions, des bugs ou des demandes de fonctionnalités, veuillez ouvrir une issue. Pour contribuer directement au code, veuillez suivre les étapes suivantes :
 
-### Guide d'Exécution
+1. Fork ce dépôt.
+  
+2. Créez une branche avec votre fonctionnalité ou correction de bug (`git checkout -b ma-fonctionnalité`).
+  
+3. Commitez vos changements (`git commit -am 'Ajoute une nouvelle fonctionnalité'`).
+  
+4. Poussez votre branche (`git push origin ma-fonctionnalité`).
+  
+5. Créez une pull request.
 
-1. Ouvrez le projet dans Android Studio.
-2. Compilez et exécutez l'application sur un émulateur ou un périphérique Android.
+## Licence
 
-### Contributions
+Ce projet est sous licence MIT. Pour plus d'informations, consultez le fichier [LICENSE](LICENSE).
 
-Les contributions sont les bienvenues! N'hésitez pas à ouvrir des problèmes pour signaler des bugs ou suggérer des améliorations.
+---
+
+Remplacez ce README avec des informations spécifiques à votre projet.
