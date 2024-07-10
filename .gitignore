@@ -1,0 +1,43 @@
+# Compiled JavaScript files
+/build
+/dist
+
+# Testing files
+/coverage
+
+# IDE files
+.idea
+*.iml
+
+# Editor files
+.vscode
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+
+# Package manager files
+node_modules
+yarn.lock
+package-lock.json
+
+# Documentation
+docs/
+
+# Configuration files
+.env
+.env.local
+.env.development
+.env.production
+
+# Secrets
+.secret
+.secrets
+
+# Other files
+*.DS_Store
+Thumbs.db
+<ctrl63>
